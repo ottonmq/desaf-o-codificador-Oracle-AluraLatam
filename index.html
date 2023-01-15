@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title> Codificador </title>
+        <link rel="stylesheet" href="css/Estilos2.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <script src="js/script.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;800&display=swap" rel="stylesheet">
+    </head>
+
+
+<body id="body">
+    
+<div class="contenedor">    
+    <header>
+        <section class="logo">
+            <img class="imagen-logo" src="imagenes/Logo-1.png" alt="logo de la pagina">
+        </section>
+    </header>
+        
+
+    <main >
+        <section class="izquierda">
+            <textarea class="ingrese-texto" name="area1" id="inputTexto" cols="30" rows="10" placeholder="Ingrese tecto aquí" ></textarea>
+           
+            
+        </section>
+
+        <section class="botones-izquiero">
+            <p class="textobotoenes" >⬤ Solo letras minusculas y sin acentos</p>
+
+            <button type="button" id="botonEncriptar"onclick ="encriptar()" >Encriptar</button>
+
+            <button type="button" id="botonDesencriptar"onclick ="desencriptar()">Desencriptar</button>
+        </section>
+
+        <section class="derecha">
+            <img id="imagenderecha" src="imagenes/Muñeco.png" alt="personaje con lupa">
+            <h1 id="textodere">Ningun mensaje fue encontrado</h1>
+            <textarea id="textoareaderecha" name="name" cols="10" rows="30" disabled>Ingrese el texto que desees encriptar o desencriptar</textarea>
+           
+            <button id="copy" type="button" name="button" onclick ="copy()">Copiar</button>
+        </section>
+       
+    </main>
+
+</div>
+
+    <footer>
+        <section class="copyray">
+        <p class="derechos">© 2023 Todos los derechos reservados | Oracle+AluraLatam.</p>
+            <section class="enlaces">
+            <a href="https://www.linkedin.com/ottonmq" target="_blank" ><img src="Imagenes/a_Linkedin.png" class="enlaces" alt="icono Linkedin"></a>
+            <a href="https://github.com/ottonmq" target="_blank" ><img src="Imagenes/a_github.png"class="enlaces"  alt="icono GitHub"></a>
+            <a href="https://www.instagram.com/ottonmq" target="_blank"><img src="Imagenes/a_Instagram.png"class="enlaces" alt="icono Instagram"></a>
+            <a href="https://www.behance.net/ParrucoCreativo" target="_blank"><img src="Imagenes/a_Behance.png"class="enlaces" alt="icono Behance"></a>
+            </section>
+    </section>
+    </footer>
+    
+</body>
+</html>
