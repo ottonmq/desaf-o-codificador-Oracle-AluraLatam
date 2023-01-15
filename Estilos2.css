@@ -1,0 +1,308 @@
+#body{
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: #F3F5FC;
+}
+.logo{
+    
+    width: 100%;
+    float: left;
+}
+
+.imagen-logo{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+}
+
+
+.contenedor{
+    margin: auto;
+    width: 960px;
+    height: 500px;
+    padding: 5px;
+}
+
+.izquierda{
+    float: left;
+    width: 65%;
+    height: auto;
+    border-radius: 24px;
+    margin-left: 3%;
+    padding: 5px;
+    background: #F3F5FC;
+}
+
+.ingrese-texto{
+    float: left;
+    font-weight: lighter;
+    margin-left: 3%;
+    margin-top: 5%;
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    padding-left: 5px;
+    color: #072B61;
+    font-size: 25px;
+    overflow: auto;
+    border: none;
+    outline: none;
+    resize: none;
+    background:#F3F5F5;
+}
+
+.derecha{
+    float: right;
+    width: 25%;
+    height: 450px;
+    margin-right: 3%;
+    border-radius: 24px;
+    margin-top: -37%;
+    padding: 5px;
+    background: rgb(255, 255, 255);
+    box-shadow: 1px 10px 20px 5px #ADB5BD;
+    
+}
+
+#imagenderecha{
+    margin-top: 20%;
+    margin-left: 2%;
+    width: 90%;
+    height: auto;
+}
+
+#textodere{
+    margin-left: 7%;
+    margin-right: 5%;
+    text-align: center;
+    font-size: 10px;
+}
+
+#textoareaderecha{
+    float:left;
+    margin-left: 10%;
+    color: #072B61;;
+    width: 80%;
+    height: 150px;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 15px;
+    text-align: center;
+    box-sizing: border-box;
+   ;
+    
+}
+
+.botones-izquiero{
+    float: left;
+    width: 65%;
+    height: auto;
+    border-radius: 24px;
+    margin-left: 3%;
+    padding: 5px;
+}
+
+.textobotoenes{
+    padding: 5px;
+    text-align: left;
+    font-size: 11px;
+    color: #495057;
+    }
+
+#botonEncriptar{
+padding: 12px;
+width: 40%;
+height: 54px;
+border-radius: 30px;
+margin-left: 0%;
+background: #072B61;
+color: #D8DFE8;
+text-align: center;
+font-size: 15px;
+font-weight: bold;
+cursor: pointer;
+}
+
+#botonEncriptar:hover{
+    background: #01132e;
+    font-size: 18px;
+}
+
+#botonDesencriptar{
+    padding: 12px;
+    width: 40%;
+    height: 54px;
+    border-radius: 30px;
+    margin-left: 5%;
+    background: #D8DFE8;
+    border-color: #072B61;
+    color: #072B61;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    }
+
+#botonDesencriptar:hover{
+    background: #ffffff;
+    font-size: 18px;
+}
+
+#copy{
+    padding: 12px;
+    width: 90%;
+    height: 54px;
+    border-radius: 30px;
+    margin-left: 5%;
+    margin-top: 150%;
+    background: #FFFFFF;
+    border-color: #072B61;
+    color: #072B61;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+    } 
+
+#copy:hover{
+    background: #D8DFE8;
+    font-size: 18px;
+}
+
+    .derechos{
+    margin-top: 3%;
+    color: #072B61;
+    text-align: center;
+    font-size: 15px;
+    font-weight:lighter;
+    }    
+
+    .enlaces{
+        width: 25px;
+        height: 25px;
+        position:relative;
+        display: inline;
+        margin: 5px;
+    }
+
+    .enlaces:hover{
+        width: 30px;
+        height: 30px;
+    }
+    @media screen and (max-width:768px){
+        .imagen-logo{
+            margin-top: 5%;
+            margin-left: 5%;
+            float: inherit;
+        }
+        .contenedor{
+            margin: auto;
+            width: auto;
+            height: auto;
+            padding: 5px;
+        }
+        .ingrese-texto{
+            float: left;
+            font-weight: lighter;
+            margin-left: 3%;
+            margin-top: 5%;
+            width: 90%;
+            height: auto;
+            padding-left: 5px;
+            color: #072B61;
+            font-size: 20px;
+            overflow: auto;
+            border: none;
+            outline: none;
+            background:#F3F5F5;
+        }
+
+        .botones-izquiero{
+            float: left;
+            width: 95%;
+            height: auto;
+            border-radius: 24px;
+            margin-left: 3%;
+            margin-top: 150px;
+            padding: 5px;
+        }
+
+        .derecha{
+            float:left;
+            width: 95%;
+            margin-left: 2%;
+            max-width: 755px;
+            height: auto;
+            margin-top: 25px;
+            border-radius: 24px;
+            background: white;
+            box-shadow: 1px 10px 20px 5px #ADB5BD;
+            
+        }
+
+        #imagenderecha{
+            display: none;
+        }
+
+        #botonEncriptar{
+            padding: 12px;
+            width: 100%;
+            height: 54px;
+            border-radius: 30px;
+            background: #072B61;
+            color: #D8DFE8;
+            text-align: center;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+            }
+            
+        #botonDesencriptar{
+            padding: 12px;
+            margin-left: 0%;
+            width: 100%;
+            height: 54px;
+            border-radius: 30px;
+            margin-top: 5%;
+            background: #D8DFE8;
+            border-color: #072B61;
+            color: #072B61;
+            text-align: center;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        #copy{
+            margin-top: 30px;
+            padding: 12px;
+            width: 90%;
+            height: 54px;
+            border-radius: 30px;
+            margin-left: 5%;
+            background: #FFFFFF;
+            border-color: #072B61;
+            color: #072B61;
+            text-align: center;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+        } 
+                
+        .copyray{
+            margin-top: 95%;
+            color: #072B61;
+            text-align: center;
+            font-size: 15px;
+            font-weight:lighter;
+        }
+
+    }
+    
+@media screen and (max-width: 480px) {
+  .consola {
+    width: auto;
+  }
